@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.androidtown.lab4.Second"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:stretchColumns="*">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성명" />
+        <TextView
+            android:id="@+id/stxt1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:stretchColumns="*">
+
+        <TextView
+            android:id="@+id/txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별" />
+        <TextView
+            android:id="@+id/stxt2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:stretchColumns="*">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수신여부" />
+        <TextView
+            android:id="@+id/stxt3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:stretchColumns="*">
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:hint="이전"
+            android:layout_column="2" />
+    </TableRow>
+</TableLayout>
